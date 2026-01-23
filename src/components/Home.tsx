@@ -35,8 +35,7 @@ function Home() {
                 focused on growing as a full-stack engineer, constantly
                 learning, experimenting, and improving my craft one project at a
                 time. When I’m not coding, you’ll probably find me watching
-                football and defending Arsenal like my life depends on it (yes,
-                even during the tough seasons 😄).
+                football and rooting for Arsenal (yes, even during the tough seasons 😄).
               </p>
             </div>
           </div>
