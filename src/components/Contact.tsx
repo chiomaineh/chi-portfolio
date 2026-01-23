@@ -77,22 +77,22 @@ function Contact() {
               className="text-purple-600 font-medium hover:underline"
             >
               <span className="text-black hover:no-underline">
-                Reach out on LinkedIn:{" "}
+                Reach out on LinkedIn:
               </span>
               LinkedIn
             </a>
 
-            <a
+            {/* <a
               href="https://github.com/chiomaineh"
               target="_blank"
               rel="noopener noreferrer"
               className="text-purple-600 font-medium hover:underline"
             >
               <span className="text-black hover:no-underline">
-                Check out my GitHub:{" "}
+                Check out my GitHub:
               </span>
               GitHub
-            </a>
+            </a> */}
           </div>
 
           {/* Right side */}
