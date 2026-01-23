@@ -59,7 +59,7 @@ function Header() {
                 ))}
 
                 <button>
-                  <a href="https://drive.google.com/file/d/16Weq6qzMxScyFpFKkRZvaUUJ0cnKr0XC/view?usp=drive_link" target="_blank">
+                  <a href="https://drive.google.com/file/d/1OQZwZ0RLqv4MQEEIOR11jqg1LK28UnVQ/view?usp=sharing" target="_blank">
                     View my CV 
                   </a>
                 </button>
