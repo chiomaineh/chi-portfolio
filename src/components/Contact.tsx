@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Github from "../assets/images/github-logo.png"
 
 function Contact() {
   const [showModal, setShowModal] = useState(false);
@@ -59,8 +60,7 @@ function Contact() {
           data-aos-duration="1500"
           className="flex flex-col lg:flex-row gap-10 mt-5"
         >
-          {/* left side*/}
-
+          \
           <div className="flex flex-col gap-4">
             <a
               href="mailto:chiomaineh3@gmail.com"
@@ -82,6 +82,22 @@ function Contact() {
               LinkedIn
             </a>
 
+            <a
+              href="https://github.com/chiomaineh"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-purple-600 font-medium"
+            >
+              <span className="text-black hover:no-underline">
+                You can also have a look at my GitHub here: 
+              </span>
+              <p className="flex items-center">
+                   <img src={Github} alt="" className="w-10 h-6" />
+                   <p>Github</p>
+              </p>
+          
+            </a>
+
             {/* <a
               href="https://github.com/chiomaineh"
               target="_blank"
@@ -94,7 +110,6 @@ function Contact() {
               GitHub
             </a> */}
           </div>
-
           {/* Right side */}
           <div data-aos="fade-in-up" data-aos-duration="1500">
             <p className="my-5 lg:my-0">
