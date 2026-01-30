@@ -60,7 +60,7 @@ function Contact() {
           data-aos-duration="1500"
           className="flex flex-col lg:flex-row gap-10 mt-5"
         >
-          \
+          
           <div className="flex flex-col gap-4">
             <a
               href="mailto:chiomaineh3@gmail.com"

@@ -138,11 +138,11 @@ function Projects() {
 
               <p className="text-sm text-slate-600">
                 A fun app that generates random advice using an external API
-                with a clean UI. Built with HTML, CSS and Vanilla Javascript.
+                with a clean UI. Built with React TypeScript and CSS.
               </p>
 
               <a
-                href="https://advice-generator-self-seven.vercel.app/"
+                href="https://tsx-advice-gen.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto bg-purple-500 text-white px-4 py-2 rounded-lg text-center text-sm hover:bg-purple-600 transition"
