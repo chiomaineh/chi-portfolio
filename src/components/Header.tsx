@@ -51,7 +51,7 @@ function Header() {
                     <a
                       href={item.path}
                       onClick={() => setIsOpen(false)}
-                      className="block text-black hover:bg-purple-500 hover:text-white px-5 py-2 rounded-lg transition"
+                      className="block text-white font-bold hover:bg-purple-500 hover:text-white px-5 py-2 rounded-lg transition"
                     >
                       {item.name}
                     </a>
