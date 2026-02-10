@@ -3,6 +3,7 @@ import sneakers from "../assets/images/sneakers.png";
 import space from "../assets/images/space.png";
 import advice from "../assets/images/advice.png";
 import todo from "../assets/images/todo.png";
+import weather from "../assets/images/image.png";
 
 function Projects() {
   return (
@@ -17,7 +18,11 @@ function Projects() {
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 px-5">
           {/* Project 1 */}
-          <div data-aos="zoom-in" data-aos-duration="1000" className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
             <img
               src={KBS}
               alt="Knowledge Based"
@@ -29,7 +34,8 @@ function Projects() {
 
               <p className="text-sm text-slate-600">
                 A web platform designed to organize and present structured
-                knowledge in an intuitive way. Built with React JavaScript and TailwindCSS.
+                knowledge in an intuitive way. Built with React JavaScript and
+                TailwindCSS.
               </p>
 
               <a
@@ -40,30 +46,34 @@ function Projects() {
               >
                 View Live
               </a>
-              
             </div>
           </div>
 
           {/* Project 2 */}
-          <div data-aos="zoom-in" data-aos-duration="1500"className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
+
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2500"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
             <img
-              src={sneakers}
-              alt="Sneakers E-commerce"
+              src={weather}
+              alt="Weather App"
               className="w-full h-44 object-cover"
             />
 
             <div className="p-5 flex flex-col gap-4">
-              <h3 className="font-semibold text-lg">Sneakers E-commerce</h3>
+              <h3 className="font-semibold text-lg">Weather Application</h3>
 
               <p className="text-sm text-slate-600">
-                A single-page e-commerce product page featuring add-to-cart
-                functionality and responsive design. Built with React JavaScript and TailwindCSS.
+                A weather app built with TypeScript and TailwindCSS to know what
+                the weather is like in any part of the world ! Built using the
+                OpenMeteo API and Big Data Cloud API for reverse geocoding.
               </p>
 
               <a
-                href="https://sneakers-project-zeta.vercel.app/"
+                href="https://weather-app-xi-three-61.vercel.app/"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="mt-auto bg-purple-500 text-white px-4 py-2 rounded-lg text-center text-sm hover:bg-purple-600 transition"
               >
                 View Live
@@ -72,7 +82,11 @@ function Projects() {
           </div>
 
           {/* Project 3 */}
-          <div data-aos="zoom-in" data-aos-duration="2000" className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
             <img
               src={space}
               alt="Space X Website"
@@ -99,7 +113,44 @@ function Projects() {
           </div>
 
           {/* Project 4 */}
-          <div data-aos="zoom-in" data-aos-duration="2500" className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
+
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
+            <img
+              src={sneakers}
+              alt="Sneakers E-commerce"
+              className="w-full h-44 object-cover"
+            />
+
+            <div className="p-5 flex flex-col gap-4">
+              <h3 className="font-semibold text-lg">Sneakers E-commerce</h3>
+
+              <p className="text-sm text-slate-600">
+                A single-page e-commerce product page featuring add-to-cart
+                functionality and responsive design. Built with React JavaScript
+                and TailwindCSS.
+              </p>
+
+              <a
+                href="https://sneakers-project-zeta.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto bg-purple-500 text-white px-4 py-2 rounded-lg text-center text-sm hover:bg-purple-600 transition"
+              >
+                View Live
+              </a>
+            </div>
+          </div>
+
+          {/* Project 5 */}
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2500"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
             <img
               src={todo}
               alt="To-do App"
@@ -110,8 +161,9 @@ function Projects() {
               <h3 className="font-semibold text-lg">To-do Application</h3>
 
               <p className="text-sm text-slate-600">
-                A simple and efficient task management app built with TypeScript and an external API to
-                improve productivity. Also built using DaisyUI. 
+                A simple and efficient task management app built with TypeScript
+                and an external API to improve productivity. Also built using
+                DaisyUI.
               </p>
 
               <a
@@ -125,8 +177,12 @@ function Projects() {
             </div>
           </div>
 
-          {/* Project 5 */}
-          <div data-aos="zoom-in" data-aos-duration="3000" className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden">
+          {/* Project 6 */}
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
             <img
               src={advice}
               alt="Advice Generator"

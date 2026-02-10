@@ -32,7 +32,7 @@ function Header() {
 
             {/* sidebar */}
             <nav
-              className={`fixed top-0 right-0 w-64 h-screen z-999 bg-linear-to-b from-purple-300 to-purple-300 p-6 transform transition-transform duration-300 ease-in-out ${
+              className={`fixed top-0 right-0 w-64 h-screen z-999 bg-purple-500 p-6 transform transition-transform duration-300 ease-in-out ${
                 isOpen ? "translate-x-0" : "translate-x-full"
               }`}
             >
