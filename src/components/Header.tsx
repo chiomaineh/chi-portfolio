@@ -45,7 +45,7 @@ function Header() {
               </button>
 
               {/* Menu */}
-              <ul className="space-y-8 text-black">
+              <ul className="space-y-8 text-white font-bold">
                 {navItems.map((item) => (
                   <li key={item.path}>
                     <a
