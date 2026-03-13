@@ -4,6 +4,7 @@ import space from "../assets/images/space.png";
 import advice from "../assets/images/advice.png";
 import todo from "../assets/images/todo.png";
 import weather from "../assets/images/image.png";
+import restaurant from "../assets/images/restaurant.png";
 
 function Projects() {
   return (
@@ -199,6 +200,36 @@ function Projects() {
 
               <a
                 href="https://tsx-advice-gen.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto bg-purple-500 text-white px-4 py-2 rounded-lg text-center text-sm hover:bg-purple-600 transition"
+              >
+                View Live
+              </a>
+            </div>
+          </div>
+
+            {/* Project 7 */}
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition overflow-hidden"
+          >
+            <img
+              src={restaurant}
+              alt="Restaurant Website"
+              className="w-full h-44 object-cover"
+            />
+
+            <div className="p-5 flex flex-col gap-4">
+              <h3 className="font-semibold text-lg">Restaurant Website</h3>
+
+              <p className="text-sm text-slate-600">
+                A restaurant website with a modern design and smooth navigation. Built with React TypeScript and Tailwind CSS. 
+              </p>
+
+              <a
+                href="https://product-list-nu-wheat.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-auto bg-purple-500 text-white px-4 py-2 rounded-lg text-center text-sm hover:bg-purple-600 transition"
